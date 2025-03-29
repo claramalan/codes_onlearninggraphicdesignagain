@@ -3,8 +3,8 @@ import numpy as np
 from PIL import Image
 
 # Load the base image and the overlay image
-base_image_path = '/Users/claramalan/Desktop/untitled folder 2/antenna_code/BLURgradiantoverlayantenna Try out.png'
-overlay_image_path = '/Users/claramalan/Desktop/untitled folder 2/antenna_code/dotimage3_antenna Try out.png'  # Replace with your overlay image path
+base_image_path = '/Users/claramalan/Desktop/XX.png'
+overlay_image_path = '/Users/claramalan/Desktop/XX2.png'  # Replace with your overlay image path
 
 # Load images using OpenCV
 base_image = cv2.imread(base_image_path, cv2.IMREAD_COLOR)
